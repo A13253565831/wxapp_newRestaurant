@@ -1,0 +1,1 @@
+#wxapp_newRestaurant
