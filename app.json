@@ -1,0 +1,67 @@
+{
+  "pages":[
+    "pages/decor/home/home",
+    "pages/decor/article/article",
+    "pages/decor/article/articleD/articleD",
+    "pages/decor/appoint/appoint",
+    "pages/decor/appoint/appointD/appointD",
+    "pages/decor/cartoon/cartoon",
+    "pages/decor/cartoon/cartoonItem/cartoonItem",
+    "pages/decor/cartoon/cartoonD/cartoonD",
+    "pages/decor/news/news",
+    "pages/decor/news/newsItem/newsItem",
+    "pages/decor/news/newsD/newsD",
+    "pages/decor/map/map",
+    "pages/decor/gallerItem/gallerItem",
+    "pages/decor/gallerItem/gallerD/gallerD",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#599fff",
+    "navigationBarTitleText": "装修",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#515151",
+    "selectedColor": "#599fff",
+    "borderStyle": "white",
+    "backgroundColor": "white",
+    "list": [
+      {
+      "pagePath": "pages/decor/home/home",
+      "text": "首页",
+      "iconPath": "images/tabbar/h.png",
+      "selectedIconPath": "images/tabbar/h1.png"
+      },
+      
+    {
+      "pagePath": "pages/decor/appoint/appoint",
+      "text": "预约",
+      "iconPath": "images/tabbar/s.png",
+      "selectedIconPath": "images/tabbar/s1.png"
+    },
+    {
+      "pagePath": "pages/decor/cartoon/cartoon",
+      "text": "图库",
+      "iconPath": "images/tabbar/t.png",
+      "selectedIconPath": "images/tabbar/t1.png"
+    },
+    {
+      "pagePath": "pages/decor/news/news",
+      "text": "资讯",
+      "iconPath": "images/tabbar/z.png",
+      "selectedIconPath": "images/tabbar/z1.png"
+    },
+    {
+      "pagePath": "pages/decor/map/map",
+      "text": "位置",
+      "iconPath": "images/tabbar/w.png",
+      "selectedIconPath": "images/tabbar/w1.png"
+    }
+    
+    
+
+    ]
+  }
+}

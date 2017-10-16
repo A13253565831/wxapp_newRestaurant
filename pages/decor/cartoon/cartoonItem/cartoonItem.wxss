@@ -1,0 +1,37 @@
+.contain {
+  background: #f3eff1;
+}
+.galler_flex{
+  padding: 0rpx 15rpx;
+}
+.galler_for{
+  width: 100%;
+  height: 340rpx;
+  margin-top: 15rpx;
+  position: relative;
+}
+.galler_for>image{
+  width: 100%;
+  height: 100%;
+
+}
+.filter {
+  position: absolute;
+  width: 100%;
+  height:100%;
+  top: 0;
+  background: black;
+  opacity: .4;
+
+}
+.galler_name{
+  position:absolute;
+  bottom: 120rpx;
+  color: white;
+}
+.galler_text{
+  padding-bottom: 10rpx;
+}
+.galler_cont{
+  font-size: 15px;
+}

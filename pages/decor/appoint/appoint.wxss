@@ -1,0 +1,34 @@
+.title_form_cont {
+  width: 100%;
+  height: 500rpx;
+  position: relative;
+}
+.filter {
+  position: absolute;
+  width: 100%;
+  height: 500rpx;
+  background: black;
+  opacity: .5;
+}
+.title_form_cont>image{
+  width: 100%;
+  height: 500rpx;
+}
+
+.title_name {
+  position: absolute;
+  width: 100%;
+  top: 200rpx;
+  /* left: 0rpx; */
+  color: white;
+}
+.title_name>text{
+  display: block;
+  text-align: center;
+}
+.pre {
+  letter-spacing: 2rpx;
+  color: aqua;
+  margin-top: 20rpx;
+  text-align: center;
+}

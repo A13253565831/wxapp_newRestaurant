@@ -1,0 +1,60 @@
+.map_text {
+  /*padding: 10px 20px;*/
+  font-size: 16px;
+  background: #f3eff1;
+}
+.map_center{
+  display: flex;
+  flex-direction: column;
+}
+
+.map_address {
+  padding: 10px 20px;
+  margin-top: 5px;
+  background: white; 
+  /* height: 40px; */
+  letter-spacing: 1px;
+}
+.shoper_name {
+  padding: 10px 20px;
+  margin-top: 5px;
+  /*background: white;*/
+  /* height: 20px; */
+  /* line-height: 20px; */
+  letter-spacing: 2px;
+  text-align: center;
+  color: black;
+}
+.contact_me{
+  margin-top: 5px;
+  padding: 10px 20px;
+  background: white;
+  height: 20px;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+.shoper_intor {
+  margin-top: 5px;
+  padding: 10px 20px;
+  background: white;
+  letter-spacing: 1px;
+  font-size:32rpx;
+  line-height: 40rpx;
+}
+
+.company_detail{
+   margin-top: 5px;
+  padding: 10px 20px;
+  background: white;
+  letter-spacing: 3px;
+}
+.go_there{
+  background: white; 
+  height: 20px;
+  padding: 5px 20px;
+  margin-top: 5px;
+}
+.go_there>image{
+  width: 20px;
+  height: 20px;
+}

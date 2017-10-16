@@ -1,0 +1,29 @@
+<import src="../../../wxParse/wxParse.wxml"/>
+<map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="16"  markers="{{markers}}" bindmarkertap="markertap"  bindregionchange="regionchange" show-location style="width: 100%; height: 300px;"></map>
+
+<view class="map_text">
+  <view class="map_title">
+    <view class="map_center">
+    <view class="shoper_name">
+    <text>公司名称:{{name}}</text>
+  </view>
+    <view class="map_address">
+    <text>公司地址:{{address}}</text>
+  </view>
+  <view class="go_there" size="13rpx" bindtap="bindgothere">
+     到这里去: <image src="../../../images/map/go.png"></image>
+    </view>
+  <view class="contact_me">
+    <text>公司电话:{{tel}}</text>
+  </view>
+  <view class="company_detail">
+    <text>公司详情</text>
+  </view>
+  <view class="shoper_intor">
+    <template is="wxParse" data="{{wxParseData:shoperIn.nodes}}">
+      <text>公司简介:{{intro}}</text>
+  </template>
+</view>
+</view>
+  </view>
+</view>

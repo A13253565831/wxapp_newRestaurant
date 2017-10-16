@@ -1,0 +1,15 @@
+ <view class="contain">
+  <view class="contain_flex">
+   <view class="galler_padding">
+    <view class="contain_for" wx:for="{{gallerItem}}" data-id="{{item.id}}" bindtap="bindgallerD">
+     <image src="{{item.picurl}}"></image>
+     <view class="galler_text">
+      <text>{{item.name}}</text>
+     </view>
+     <!-- <view class="galler_intro">
+      <text>{{item.info}}</text>
+     </view> -->
+    </view>
+   </view>
+  </view>
+ </view>

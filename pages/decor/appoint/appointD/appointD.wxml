@@ -1,0 +1,67 @@
+<!-- <view class="contain" style="background-image:url('{{}}');background-repeat:no-repeat;background-size: 100% 100%"> -->
+
+ <view class="form_title">
+ <view class="form_cont">
+  <!-- <text>装修预约</text> -->
+ </view>
+</view>
+<form bindsubmit="bindFormSubmit" class="form">
+  <view class="pre_view">
+   <view class="pre_for" wx:for-items="{{pre}}">
+    <input class="input_cont"  placeholder-style=" color:white;" placeholder="{{item.name}}" name="{{item.fieldname}}" />
+   </view>
+  </view>
+<view class="appoint">
+  <view class="appoint_radio">
+      <view class="appoint_radio_content">
+    <block wx:for-items="{{radio}}">
+    <radio-group class="radio-group total_font_color" name="{{item.fieldname}}" bindchange="radioChange">
+
+    <label class="radio" >
+    <text class="input_color_title">{{item.name}}:</text>
+    <block wx:for="{{item.options}}" wx:for-item="ra">
+    <view class="rad"><radio value="{{ra.value}}" checked="true"/>{{ra.value}}</view>
+    </block>
+    </label>
+    </radio-group> 
+    </block>
+          </view>
+        </view>
+</view>
+  
+  <view class="checkbox">
+     <block wx:for-items="{{checkbox}}" wx:key="id" for-index="index">    
+    <checkbox-group class="check-group total_font_color" name="{{item.fieldname}}" bindchange="checkboxChange">
+<text class="input_color_title">{{item.name}}:</text>
+  <label class="checkbox total_font_color" >
+  <block wx:for="{{item.options}}" wx:for-item="it">
+  <view class="chec"> <checkbox  value="{{it.value}}"  />{{it.value}} </view>
+  </block>
+  </label>
+</checkbox-group>
+</block>
+  </view>
+ 
+<view class="toto">
+  <view class="section">
+  <block wx:for-items="{{picker}}" wx:for-key="uinque">
+   <picker mode="date" value="{{date}}" name="{{item.fieldname}}" start="2017-03-01" end="2040-09-01" bindchange="bindDateChange">
+  <view class="section__title">{{item.name}}:<text>{{date}}</text></view>
+ 
+  </picker>
+  </block>
+</view>
+
+<view class="text_area total_font_color">
+<block  wx:for-items="{{textarea}}">
+<text class="input_color_title">{{item.name}}:</text>
+<textarea style="width: 97%; padding:10rpx 1.5%; height: 100px; margin: 0 auto; border: 1px solid black;box-sizing:border-box;color:black;"name="{{item.fieldname}}" type="{{item.field_type}}" />
+</block>
+</view>
+
+</view>
+  <button class="button" form-type="submit">提交</button>
+</form> 
+
+
+<!-- </view> -->

@@ -1,0 +1,17 @@
+<view class="total_car">
+  <view class="total_car_flex">
+   <view class="total_car_view" wx:for-items="{{cartoon}}" data-id="{{item.id}}" bindtap="bindDtap">
+     <view class="backg_white">
+      <view class="total_car_image">
+      <image src="{{item.img}}"></image>
+     </view>
+     <view class="total_car_title">
+      <text>{{item.name}}</text>
+     </view>
+      <view class="total_car_intro">
+      <text>{{gallerD.intro}}</text>
+     </view> 
+     </view>
+   </view>
+  </view>
+</view>

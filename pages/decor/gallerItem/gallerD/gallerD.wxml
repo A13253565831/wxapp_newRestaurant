@@ -1,0 +1,17 @@
+<view class="total_car">
+  <view class="total_car_flex">
+   <view class="total_car_view">
+     <view class="backg_white">
+      <view class="total_car_image">
+      <image src="{{gallerD.picurl}}"></image>
+     </view>
+     <view class="total_car_title">
+      <text>{{gallerD.name}}</text>
+     </view>
+     <view class="total_car_intro">
+      <text>{{gallerD.info}}</text>
+     </view>
+     </view>
+   </view>
+  </view>
+</view>

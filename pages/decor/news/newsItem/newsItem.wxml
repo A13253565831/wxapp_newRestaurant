@@ -1,0 +1,18 @@
+<import src="../../../../tem/swiper.wxml"/>
+<view class="contain">
+ <template is="swiper" data="{{list}}"></template>
+  <view class="newItem_flex">
+   <view class="newsItem_for" wx:for="{{articleTwo}}" bindtap="bindViewDetail" data-id="{{item.id}}">
+    <image src="{{item.img}}"></image>
+    <view class="newsItem_text">
+      <view class="newsItem_title">
+       <text>{{item.title}}</text>
+      </view>
+      <view class="newsItem_cont">
+       <text>{{item.text}}</text>
+      </view>
+    </view>
+   </view>
+  </view>
+
+</view>

@@ -1,0 +1,165 @@
+page{
+  
+  background: lavender;
+}
+.contain{
+  width: 100%;
+  height: 100%;
+}
+
+.form_cont{
+  text-align: center;
+  padding-top:10rpx;
+}
+.form_cont text{
+  color: white;
+  background: black;
+  font-weight: bold;
+}
+.pre_view{
+  padding: 10px 15px;
+}
+.input_cont {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #696969;
+  margin-top: 15px;
+}
+.pre_for:nth-child(1) .input_cont{
+  background:#C90000;
+  color: white;
+  border-radius: 15rpx;
+  
+}
+
+.pre_for:nth-child(2) .input_cont{
+  background:#F05600;
+  color: white;
+  border-radius: 15rpx;
+}
+
+.pre_for:nth-child(3) .input_cont{
+  background:#0188FB;
+  color: white;
+  border-radius: 15rpx;
+}
+.pre_for:nth-child(4) .input_cont{
+  background:gray;
+  color: white;
+  border-radius: 15rpx;
+}
+.pre_for:nth-child(5) .input_cont{
+  background:lightblue;
+  color: white;
+  border-radius: 15rpx;
+}
+.button {
+  margin-top: 40px;
+  color: white;
+  background: #0A1C71;
+  margin-bottom: 20rpx;
+}
+.section {
+  width: 100%;
+  height: 35px;
+  margin-top: 15px;
+  background: blueviolet;
+  color: white;
+  border-radius: 15rpx;
+}
+
+.section__title {
+  line-height: 35px;
+}
+
+.appoint_radio_content{
+  margin-top: 15px;
+  color: white;
+  
+}
+.appoint{
+  padding: 10px 15px;
+}
+.appoint_radio {
+  width: 100%;
+  margin-top: 10px;
+  background: #4E1D4C;
+  border-radius: 15rpx;
+  /*height: 120px;*/
+  /*background: lightgoldenrodyellow;*/
+}
+
+.radio-group {
+  width: 100%;
+}
+.radio {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.input_color_title{
+  display: block;
+  padding-bottom: 3px;
+}
+.checkbox{
+  padding: 10px 15px;
+}
+.check-group {
+  width: 100%;
+}
+.appoint_checkbox {
+  width: 100%;
+  height: 80px;
+  padding-top: 10px;
+}
+.rad{
+  /* padding-top: 10rpx; */
+  /* padding-bottom:10rpx; */
+  font-size:30rpx;
+  padding: 10rpx 20rpx; 
+}
+.chec{
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+  font-size:30rpx;
+}
+.appoint_checkbox_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.check-group {
+   width: 100%;
+   padding-top: 20rpx;
+   /*padding-left: 60rpx;*/
+   background: #696969;
+   padding-bottom: 10px;
+   margin-top: 10px;
+   color: white;
+   border-radius: 15rpx;
+}
+.checkbox{
+  display: block;
+  padding-top: 10rpx;
+}
+
+.check-group text {
+  padding-right: 25rpx;
+}
+.text_area {
+  width: 100%;
+  padding-top: 40rpx;
+  color: #C90000;
+}
+.text_area text {
+  padding-bottom: 10rpx;
+  display: block;
+}
+.toto{
+  padding: 10px 15px;
+}
+.button{
+  width: 94%;
+  background: #6FB6F4;
+  padding-bottom: 30rpx;
+}

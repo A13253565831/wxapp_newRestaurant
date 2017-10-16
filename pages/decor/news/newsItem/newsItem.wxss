@@ -1,0 +1,33 @@
+@import "../../../../style/swiper.wxss";
+.contain{
+  background: #f3eff1;
+}
+.newItem_flex{
+  margin-top: 10rpx;
+  display: flex;
+  flex-direction: column;
+}
+.newsItem_for{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10rpx 20rpx;
+  /* margin-top: 10rpx; */
+  margin-bottom: 15rpx;
+  height: 300rpx;
+  background: white;
+}
+.newsItem_for>image {
+  flex: 1;
+  height: 280rpx;
+  padding:10rpx;
+  margin-right: 10px;
+}
+.newsItem_text{
+  flex: 2;
+  padding-top: 15rpx;
+}
+.newsItem_cont{
+  font-size: 28rpx;
+  padding-top: 10rpx;
+}

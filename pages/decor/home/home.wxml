@@ -1,0 +1,33 @@
+<import src="../../../tem/swiper.wxml"/>
+<view class="contain">
+<template is="swiper" data="{{list}}"></template>
+
+<view class="type_cont">
+  <view class="type_flex">
+    <view class="type_for" wx:for="{{type}}" bindtap="bindType" data-id="{{item.id}}">
+        <image src="{{item.img}}"></image>
+      <view class="type_cont_text">
+        <text>{{item.name}}</text>
+    </view>
+  </view>
+  </view>
+  </view>
+  <view class="recommond_nav">推荐介绍</view>
+  <view class="recommond_cont">
+    <view class="recommond_flex">
+     <view class="recommond_for" wx:for-items="{{galler}}" data-id="{{item.id}}" bindtap="bindgaller">
+      <image src="{{item.img}}"></image>
+       <view class="recommond_name">
+        <view class="recommond_left">
+         <text>{{item.name}}</text>
+        </view>
+        <view class="recommond_right">
+          <image src="../../../images/galler/xin.png"></image>
+        </view>
+
+       </view>
+     </view>
+    </view>
+  </view>
+
+</view>

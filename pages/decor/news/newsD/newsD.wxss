@@ -1,0 +1,35 @@
+.carbook_detail {
+  width:100%;
+  background: #f3eff1;
+}
+.carbook_for{
+  display: flex;
+  flex-direction: column;
+}
+.carbook_for image {
+  width: 100%;
+  height: 200px;
+}
+.carbook_title {
+  margin-top: 10px;
+  background: white;
+  padding-left: 10px;
+  text-align: center;
+  padding-top: 10rpx;
+}
+.carbook_intro {
+  background: white;
+  /* height: 60px;   */
+  font-size: 30rpx;
+  padding: 10px 10px 0 10px;
+  letter-spacing: 1px;
+}
+.carbook_cont {
+  background: white;
+  font-size: 30rpx;
+  letter-spacing: 2px;
+}
+.wxParse-p{
+  padding: 10px;
+  line-height:45rpx;
+}

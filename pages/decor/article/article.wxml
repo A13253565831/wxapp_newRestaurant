@@ -1,0 +1,22 @@
+<import src="../../../tem/swiper.wxml"/>
+ <view class="total_car">
+ <template is="swiper" data="{{list}}"></template>
+  <view class="total_car_flex">
+   <view class="total_car_view" wx:for="{{artItem}}"  bindtap="bindcarbookD" data-id="{{item.id}}">
+     <view class="backg_white">
+     <view class="total_car_title">
+        <text>{{item.title}}</text>
+      <view class="total_car_intro">
+        <text>{{item.text}}</text>
+     </view>
+     </view>
+      <view class="total_car_image">
+      <image src="{{item.img}}"></image>
+     </view>
+
+     </view>
+   </view>
+  </view>
+</view>
+
+

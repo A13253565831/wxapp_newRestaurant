@@ -1,0 +1,26 @@
+
+<import src="../../../../wxParse/wxParse.wxml"/>
+<view class="carbook_detail">
+  <view 
+
+class="carbook_for" >
+   <image src="{{img}}"></image>
+   <view class="carbook_title">
+    
+
+<text>{{title}}</text>
+   </view>
+   <view class="carbook_intro">
+    <text>{{text}}</text>
+   
+
+</view>
+   <view class="carbook_cont">
+   <template is="wxParse" 
+
+data="{{wxParseData:arta.nodes}}"></template>
+    <text>{{}}</text>
+   </view>
+ </view>
+</view>
+

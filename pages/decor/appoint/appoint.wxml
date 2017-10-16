@@ -1,0 +1,13 @@
+
+<view class="title_form">
+ <view class="title_form_cont" wx:for="{{pre}}" data-id="{{item.id}}" bindtap="bindPre">
+ <view class="filter"></view>
+  <image src="{{item.img}}"></image>
+  <view class="title_name">
+   <text>{{item.title}}</text>
+   <view class="pre">
+    <text>{{item.intro}}</text>
+   </view>
+  </view>
+ </view>
+</view>

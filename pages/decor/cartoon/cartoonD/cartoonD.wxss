@@ -1,0 +1,33 @@
+.total_car{
+  background: #f3eff1;
+}
+.total_car_flex {
+  display: flex;
+  flex-direction: column;
+}
+.total_car_view {
+  margin-top: 10px;
+  width: 100%;
+  background: white;
+}
+.backg_white {
+  padding: 10px 20px;
+}
+.total_car_image {
+  width: 100%;
+  height: 400rpx;
+}
+.total_car_image image{
+  width: 100%;
+  height: 100%;
+}
+.total_car_title {
+  margin-top: 5px;
+  font-size: 15px;
+  color: #696969;
+}
+.total_car_intro {
+  margin-top: 5px;
+  font-size: 13px;
+  color: #696969;
+}
